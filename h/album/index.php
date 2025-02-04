@@ -208,10 +208,6 @@
       
 <?php
 include_once("../connectdb.php"); // เชื่อมต่อฐานข้อมูล
-$host = "localhost";
-$user = "root";
-$pwd = "";
-$db = "shop";
 
 $conn = mysqli_connect($host,$user,$pwd) or die ("เชื่อมต่อฐานข้อมูลไม่ได้");
 mysqli_select_db($conn,$db) or die ("เชื่อมต่อฐานข้อมูลไม่ได้");
